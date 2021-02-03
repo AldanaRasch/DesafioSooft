@@ -1,0 +1,84 @@
+/* Estilos de la App */
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: rgba(163,57,0,1);
+  background: -moz-linear-gradient(top, rgba(163,57,0,1) 0%, rgba(161,161,161,1) 0%, rgba(224,116,0,1) 0%, rgba(161,161,161,0.26) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(163,57,0,1)), color-stop(0%, rgba(161,161,161,1)), color-stop(0%, rgba(224,116,0,1)), color-stop(100%, rgba(161,161,161,0.26)));
+  background: -webkit-linear-gradient(top, rgba(163,57,0,1) 0%, rgba(161,161,161,1) 0%, rgba(224,116,0,1) 0%, rgba(161,161,161,0.26) 100%);
+  background: -o-linear-gradient(top, rgba(163,57,0,1) 0%, rgba(161,161,161,1) 0%, rgba(224,116,0,1) 0%, rgba(161,161,161,0.26) 100%);
+  background: -ms-linear-gradient(top, rgba(163,57,0,1) 0%, rgba(161,161,161,1) 0%, rgba(224,116,0,1) 0%, rgba(161,161,161,0.26) 100%);
+  background: linear-gradient(to bottom, rgba(163,57,0,1) 0%, rgba(161,161,161,1) 0%, rgba(224,116,0,1) 0%, rgba(161,161,161,0.26) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a33900', endColorstr='#a1a1a1', GradientType=0 );
+}
+body {
+  padding-top: 20px;
+  user-select: none;
+}
+.react-desafio {
+  font: sans-serif;
+  text-align: center;
+  position: relative;
+  font-size: 40px;
+  margin: 0 auto;
+  width: 600px;
+  /* box-shadow: 0 10px 38px grey; */
+}
+.react-desafio-menu{
+  font: sans-serif;
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.boton-desafio-menu {
+  text-decoration: underline white;
+  margin: 10px;
+  cursor: pointer;
+}
+.histograma-ejercicio1{
+  text-align: left;
+  margin-left: 230px;
+  margin-top: 50px;
+}
+.histograma-ej{
+  text-align: center;
+  margin-top: 50px;
+}
+.histograma-titulo{
+  text-decoration: underline tomato;
+  text-align: left;
+  padding-left: 270px ;
+}
+.ingrese-vector{
+  font-size: 25px;
+}
+.lineArray{
+  color: gray
+}
+.input-numeros{
+  
+  font-size: 18px;
+  width: 20px;
+  height: 20px;
+}
+button {
+  cursor: pointer;
+  background-color: orangered;
+  border: none;
+  color: white;
+  padding: 2px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+}
+/* input:invalid {
+  border: 2px dashed red;
+}
+
+input:valid {
+  border: 2px solid black;
+} */
